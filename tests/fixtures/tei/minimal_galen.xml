@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Minimal</title></titleStmt>
+      <publicationStmt><p>n/a</p></publicationStmt>
+      <sourceDesc><p>n/a</p></sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="edition" xml:lang="grc" n="urn:cts:greekLit:tlg0000.tlg000.1st1K-grc1">
+        <div type="textpart" subtype="book" n="1">
+          <div type="textpart" subtype="chapter" n="1">
+            <p>ἀλλ’ ὕδωρ γλυκὺ.</p>
+            <p>φαρμακον θερμόν.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
+

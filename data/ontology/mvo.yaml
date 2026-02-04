@@ -1,0 +1,24 @@
+# data/ontology/mvo.yaml
+
+version: 0.1
+status: scaffold
+types:
+  # Final ontology types get promoted from empirical coding.
+  # Start small; expand only with evidence + competency question support.
+  PLACE:
+    description: "Toponyms and provenance locations (operational definition pending evidence)."
+  TOOL:
+    description: "Instruments/containers used in preparations (operational definition pending evidence)."
+  PROCESS:
+    description: "Operations applied to materials (operational definition pending evidence)."
+  PROPERTY:
+    description: "Qualities/properties attributed to materials (operational definition pending evidence)."
+  MATERIAL:
+    description: "Substances, ingredients, and recognized preparation-states treated as materials (pending)."
+  MEASURE:
+    description: "Units and quantities (pending)."
+  PERSON_GROUP:
+    description: "Persons/groups when they occur (rare)."
+
+notes:
+  - "This is the Minimal Viable Ontology scaffold. Do not expand types/relations without gold evidence and CQ mapping."

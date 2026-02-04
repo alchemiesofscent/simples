@@ -1,0 +1,36 @@
+# data/ontology/relations.yaml
+
+version: 0.1
+status: scaffold
+relations:
+  synonymOf:
+    domain: ["MATERIAL", "PLACE", "TOOL", "PROCESS", "PROPERTY"]
+    range:  ["MATERIAL", "PLACE", "TOOL", "PROCESS", "PROPERTY"]
+    description: "Lexical synonymy/renaming attested in text."
+  subtypeOf:
+    domain: ["MATERIAL", "TOOL", "PROCESS", "PROPERTY"]
+    range:  ["MATERIAL", "TOOL", "PROCESS", "PROPERTY"]
+    description: "Taxonomic specialization attested in text."
+  partOf:
+    domain: ["MATERIAL"]
+    range:  ["MATERIAL"]
+    description: "Part-whole relation attested in text."
+  derivedFrom:
+    domain: ["MATERIAL"]
+    range:  ["MATERIAL"]
+    description: "Product derived from a source material attested in text."
+  preparedBy:
+    domain: ["MATERIAL"]
+    range:  ["PROCESS"]
+    description: "Material prepared/produced by a process attested in text."
+  hasProperty:
+    domain: ["MATERIAL"]
+    range:  ["PROPERTY"]
+    description: "Property attributed to a material attested in text."
+  originIn:
+    domain: ["MATERIAL"]
+    range:  ["PLACE"]
+    description: "Provenance/origin location attested in text."
+
+constraints:
+  - "No new relation may be introduced without evidence counts and a competency question mapping."

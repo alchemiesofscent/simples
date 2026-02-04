@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+
+# Generated NER/ontology pipeline outputs (safe to regenerate)
+data/token_index/
+data/samples/
+data/annotations/open_coding/
+data/annotations/adjudication_queue.jsonl
+data/annotations/review_queue_*.jsonl
+data/annotations/unlinked_queue*.jsonl
+data/annotations/linked/auto_*.jsonl
+
+reports/
+tei/enriched/
